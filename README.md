@@ -4,6 +4,11 @@ A backup repository I created to be able share my windows-terminal setup across 
 
 ## Installation
 
+### Dependencies
+This windows terminal setup requires the following packages and fonts:
+
+- [Roboto Mono regular font](https://fonts.google.com/specimen/Roboto+Mono?selection.family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i)
+
 ### Installation instructions
 If you installed the dependencies you can install my .tmux configuration by running the following commands in your terminal:
 
