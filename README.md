@@ -14,7 +14,7 @@ This windows terminal setup requires the following packages and fonts:
 ### Installation instructions
 If you installed the dependencies you can install my windows-terminal-settings configuration by running the following commands as the administrator in the windows command prompt:
 
-```PowerShell
+```Batchfile
 cd
 git clone https://github.com/rickstaa/windows-terminal-settings
 cd windows-terminal-settings
