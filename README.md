@@ -1,6 +1,6 @@
 # windows-terminal-settings profiles.json file backup
 
-A backup repository I created to be able share my windows-terminal setup across machines while keeping track of any changes I made.
+A backup repository I created to be able to share my windows-terminal setup across machines while keeping track of any changes I made.
 
 ## Installation
 
@@ -8,9 +8,11 @@ A backup repository I created to be able share my windows-terminal setup across 
 This windows terminal setup requires the following packages and fonts:
 
 - [Roboto Mono regular font](https://fonts.google.com/specimen/Roboto+Mono?selection.family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i)
+- [Ubuntu logo](http://bit.ly/2LzTHlp)
+- [Git logo](http://bit.ly/2RvDly3)
 
 ### Installation instructions
-If you installed the dependencies you can install my .tmux configuration by running the following commands in the windows command prompt:
+If you installed the dependencies you can install my windows-terminal-settings configuration by running the following commands as the administrator in the windows command prompt:
 
 ```PowerShell
 cd
