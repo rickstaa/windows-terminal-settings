@@ -37,14 +37,31 @@
             "fontSize": 11,
             "fontFace": "Roboto Mono"
         },
-        // Icon can be found on http://bit.ly/2LzTHlp
         {
             "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
             "hidden": false,
             "name": "Ubuntu-18.04",
             "source": "Windows.Terminal.Wsl",
             "icon": "ms-appdata:///roaming/ubuntu_icon.png"
-        }
+        }, // Icon can be found on http://bit.ly/2LzTHlp
+        {
+            "tabTitle": "Git Bash",
+            "acrylicOpacity": 0.75,
+            "closeOnExit": true,
+            "colorScheme": "Campbell",
+            "commandline": "C:/Program Files/Git/bin/bash.exe --login",
+            "cursorColor": "#FFFFFF",
+            "cursorShape": "bar",
+            "fontFace": "Consolas",
+            "fontSize": 12,
+            "guid": "{14ad203f-52cc-4110-90d6-d96e0f41b64d}",
+            "historySize": 9001,
+            "icon": "ms-appdata:///roaming/git_logo.png",
+            "name": "Git Bash",
+            "padding": "0, 0, 0, 0",
+            "snapOnInput": true,
+            "useAcrylic": true
+        } // Icon can be found on http://bit.ly/2RvDly3
     ],
     // Add custom color schemes to this array
     "schemes": [
