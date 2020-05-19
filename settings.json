@@ -33,6 +33,7 @@
         "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
         "name": "Windows PowerShell",
         "commandline": "powershell.exe",
+        "colorScheme": "Campbell Powershell",
         "hidden": false,
         "acrylicOpacity": 0.75,
         "useAcrylic": true,
@@ -44,6 +45,7 @@
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
         "name": "Command Prompt",
         "commandline": "cmd.exe",
+        "colorScheme": "Campbell",
         "hidden": false,
         "acrylicOpacity": 0.75,
         "useAcrylic": true,
@@ -55,6 +57,7 @@
         "hidden": false,
         "name": "Azure Cloud Shell",
         "source": "Windows.Terminal.Azure",
+        "colorScheme": "One Half Dark",
         "acrylicOpacity": 0.75,
         "useAcrylic": true,
         "fontSize": 11,
@@ -65,13 +68,14 @@
         "hidden": false,
         "name": "Ubuntu-18.04",
         "source": "Windows.Terminal.Wsl",
-        "icon": "ms-appdata:///roaming/ubuntu_icon.png"
+        "icon": "ms-appdata:///roaming/ubuntu_icon.png",
+        "colorScheme": "Vintage"
       }, // Icon can be found on http://bit.ly/2LzTHlp
       {
         "tabTitle": "Git Bash",
         "acrylicOpacity": 0.75,
         "closeOnExit": true,
-        "colorScheme": "Campbell",
+        "colorScheme": "Solarized Dark",
         "commandline": "C:/Program Files/Git/bin/bash.exe --login",
         "cursorColor": "#FFFFFF",
         "cursorShape": "bar",
@@ -90,50 +94,7 @@
 
   // Add custom color schemes to this array.
   // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
-  "schemes": [
-    {
-      "name": "Ricks One Half Dark",
-      "foreground": "#DCDFE4",
-      "background": "#282C34",
-      "black": "#282C34",
-      "red": "#E06C75",
-      "green": "#98C379",
-      "yellow": "#E5C07B",
-      "blue": "#61AFEF",
-      "purple": "#C678DD",
-      "cyan": "#56B6C2",
-      "white": "#DCDFE4",
-      "brightBlack": "#5A6374",
-      "brightRed": "#E06C75",
-      "brightGreen": "#98C379",
-      "brightYellow": "#E5C07B",
-      "brightBlue": "#61AFEF",
-      "brightPurple": "#C678DD",
-      "brightCyan": "#56B6C2",
-      "brightWhite": "#DCDFE4"
-    },
-    {
-      "name": "Ricks Solarized Dark",
-      "foreground": "#cdd3d4",
-      "background": "#002B36",
-      "black": "#073642",
-      "red": "#DC322F",
-      "green": "#859900",
-      "yellow": "#B58900",
-      "blue": "#268BD2",
-      "purple": "#D33682",
-      "cyan": "#2AA198",
-      "white": "#EEE8D5",
-      "brightBlack": "#002B36",
-      "brightRed": "#CB4B16",
-      "brightGreen": "#586E75",
-      "brightYellow": "#657B83",
-      "brightBlue": "#839496",
-      "brightPurple": "#6C71C4",
-      "brightCyan": "#93A1A1",
-      "brightWhite": "#FDF6E3"
-    }
-  ],
+  "schemes": [],
 
   // Add custom keybindings to this array.
   // To unbind a key combination from your defaults.json, set the command to "unbound".
