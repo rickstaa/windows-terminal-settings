@@ -68,8 +68,10 @@
         "hidden": false,
         "name": "Ubuntu-18.04",
         "source": "Windows.Terminal.Wsl",
-        "icon": "ms-appdata:///roaming/ubuntu_icon.png",
-        "colorScheme": "Vintage"
+        "colorScheme": "Ubuntu 18.04",
+        "acrylicOpacity": 0.75,
+        "useAcrylic": true,
+        "icon": "ms-appdata:///roaming/ubuntu_icon.png"
       }, // Icon can be found on http://bit.ly/2LzTHlp
       {
         "tabTitle": "Git Bash",
@@ -94,7 +96,30 @@
 
   // Add custom color schemes to this array.
   // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
-  "schemes": [],
+  "schemes": [
+    {
+      "name": "Ubuntu 18.04",
+      "foreground": "#CCCCCC",
+      "background": "#300A24",
+      "cursorColor": "#FFFFFF",
+      "black": "#0C0C0C",
+      "red": "#C50F1F",
+      "green": "#13A10E",
+      "yellow": "#C19C00",
+      "blue": "#0037DA",
+      "purple": "#881798",
+      "cyan": "#3A96DD",
+      "white": "#CCCCCC",
+      "brightBlack": "#767676",
+      "brightRed": "#E74856",
+      "brightGreen": "#16C60C",
+      "brightYellow": "#F9F1A5",
+      "brightBlue": "#3B78FF",
+      "brightPurple": "#B4009E",
+      "brightCyan": "#61D6D6",
+      "brightWhite": "#F2F2F2"
+    }
+  ],
 
   // Add custom keybindings to this array.
   // To unbind a key combination from your defaults.json, set the command to "unbound".
